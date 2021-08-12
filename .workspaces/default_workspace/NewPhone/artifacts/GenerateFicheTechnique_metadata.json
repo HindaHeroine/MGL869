@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "facture",
+				"outputs": [
+					{
+						"internalType": "contract Facturation",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "newphonechecked",
+				"outputs": [
+					{
+						"internalType": "contract NewPhone",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "vendeur",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NewPhone/generateFicheTechnique.sol": "GenerateFicheTechnique"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NewPhone/facturation.sol": {
+			"keccak256": "0xeb5b7a43ed9d1319cdce1c548486cdd96397852f6f8f503be1fe179d34519b24",
+			"urls": [
+				"bzz-raw://a8df5f104434228f32f2ad3fd8d6ae9524a1e37bdb815c38b8bd24aa9f92f0aa",
+				"dweb:/ipfs/QmZ6T2L9QXkSTz5YUcKdG4gnC2Kp2SGhuPN1F9dEHyWAjM"
+			]
+		},
+		"NewPhone/generateFicheTechnique.sol": {
+			"keccak256": "0xeacd4d5f8797da423ab5e41ff2d8bb752fc6bf8eca131b60d389fb545bd35e89",
+			"urls": [
+				"bzz-raw://ffbcbbf7f8e30d92039e2b7dc541a12c35ea99405f62f47991dc9f0aa0c938e6",
+				"dweb:/ipfs/QmbnrSgafcZa75ACpd6S5pavJ5XUkeyuM15DmaLBgTQVuh"
+			]
+		},
+		"NewPhone/newPhone.sol": {
+			"keccak256": "0xc555ce49b5942683f36f9c0cfb81204faefbb894c8883f6ea1787cc0a711f6fc",
+			"urls": [
+				"bzz-raw://8eca78e5d33a88e382ff3120c80dccf78af9ae24974f80ef72cf23bc0f9e50d3",
+				"dweb:/ipfs/QmTNRmfEmcd81vzqNsrDxbUceb4Dp4q22FCbnNp4mQxvJ3"
+			]
+		},
+		"NewPhone/ownable.sol": {
+			"keccak256": "0x950bb150589330d54d56175e64642c06c345bc4388b29187ed1b3b893d5523ab",
+			"urls": [
+				"bzz-raw://6e2dbe99b9ec241c34bd02b1f1af0335c4f4709a7e74cc2c8400f16171b8f4c1",
+				"dweb:/ipfs/QmSzbFsXEQQ4zCjUhSmVFfjYfKs2Zcj1Hq7mbQNHTUoVfT"
+			]
+		},
+		"NewPhone/safemath.sol": {
+			"keccak256": "0x9c024ebb10c56b8f0ceaf6ccc858e5c70630877aa3818995d7827969ab698eae",
+			"urls": [
+				"bzz-raw://bf3e3062447af23ec00df706134b70c4db041506cad7755cadc89d37b9173f7d",
+				"dweb:/ipfs/QmXw7ssYiG5cDo44Pac1o5N5XwdeKM2Y5xvYc2CTu4K7Aa"
+			]
+		}
+	},
+	"version": 1
+}

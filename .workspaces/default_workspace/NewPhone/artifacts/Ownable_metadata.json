@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NewPhone/ownable.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NewPhone/ownable.sol": {
+			"keccak256": "0x950bb150589330d54d56175e64642c06c345bc4388b29187ed1b3b893d5523ab",
+			"urls": [
+				"bzz-raw://6e2dbe99b9ec241c34bd02b1f1af0335c4f4709a7e74cc2c8400f16171b8f4c1",
+				"dweb:/ipfs/QmSzbFsXEQQ4zCjUhSmVFfjYfKs2Zcj1Hq7mbQNHTUoVfT"
+			]
+		}
+	},
+	"version": 1
+}
